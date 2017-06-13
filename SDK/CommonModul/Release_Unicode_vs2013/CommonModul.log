@@ -1,0 +1,104 @@
+﻿生成启动时间为 2017/6/11 23:48:42。
+     1>项目“F:\my desktop\FYC_SDK\CommonModul\CommonModul.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D COMMON_MODUL_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode_vs2013\CommonModul.pch" /Fo"Release_Unicode_vs2013\\" /Fd"Release_Unicode_vs2013\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DailyLog.cpp IniFileIO.cpp Rsa.cpp Stdafx.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl-”(用“/GS-”)
+         DailyLog.cpp
+     1>DailyLog.cpp(120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>DailyLog.cpp(216): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(281): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(299): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(323) : 参见“access”的声明
+     1>DailyLog.cpp(304): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>DailyLog.cpp(305): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>DailyLog.cpp(367): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : 参见“mkdir”的声明
+     1>DailyLog.cpp(542): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(545): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : 参见“mkdir”的声明
+     1>DailyLog.cpp(546): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(573): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(576): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(578): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(600): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(601): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>DailyLog.cpp(811): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(323) : 参见“access”的声明
+     1>DailyLog.cpp(888): warning C4018: “>”: 有符号/无符号不匹配
+         IniFileIO.cpp
+     1>IniFileIO.cpp(16): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>IniFileIO.cpp(68): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>IniFileIO.cpp(88): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>IniFileIO.cpp(140): warning C4018: “>”: 有符号/无符号不匹配
+         Rsa.cpp
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(222): warning C4005: “__in”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(192) : 参见“__in”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(223): warning C4005: “__out”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(199) : 参见“__out”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(224): warning C4005: “__inout”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(212) : 参见“__inout”的前一个定义
+     1>Rsa.cpp(191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Rsa.cpp(220): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rsa.cpp(445): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rsa.cpp(567): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>Rsa.cpp(800): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>Rsa.cpp(809): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>Rsa.cpp(734): warning C4101: “cbDecoded2”: 未引用的局部变量
+     1>Rsa.cpp(738): warning C4101: “pbDecoded2”: 未引用的局部变量
+     1>Rsa.cpp(646): warning C4101: “cbDecoded”: 未引用的局部变量
+     1>Rsa.cpp(1073): warning C4018: “>”: 有符号/无符号不匹配
+     1>Rsa.cpp(1257): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rsa.cpp(1308): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rsa.cpp(1411): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>Rsa.cpp(1687): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Rsa.cpp(1716): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\my desktop\fyc_sdk\commonmodul\rsa.cpp(336): warning C4715: “CRsaEngine::SetPrivateKey”: 不是所有的控件路径都返回值
+         Stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release_Unicode_vs2013\CommonModul.res" CommonModul.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\CommonModul.dll) does not match the Linker's OutputFile property value (F:\my desktop\FYC_SDK\运行\Release\Unicode\CommonModul.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../运行/Release/Unicode/CommonModul.dll" /NOLOGO /DEF:".\CommonModul.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\CommonModul.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../库文件/Unicode/CommonModul.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode_vs2013\CommonModul.res
+         Release_Unicode_vs2013\DailyLog.obj
+         Release_Unicode_vs2013\IniFileIO.obj
+         Release_Unicode_vs2013\Rsa.obj
+         Release_Unicode_vs2013\Stdafx.obj
+            正在创建库 ../库文件/Unicode/CommonModul.lib 和对象 ../库文件/Unicode/CommonModul.exp
+         CommonModul.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\CommonModul.dll
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\CommonModul.dll ..\开发环境\开发环境构建\CommonModul.dll
+         copy /y ..\运行\Release\Unicode\CommonModul.dll ..\发布\Release\Unicode\CommonModul.dll
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\CommonModul\CommonModul.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.09

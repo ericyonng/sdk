@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/6/12 0:21:07。
+     1>项目“F:\my desktop\FYC_SDK\Admin\Admin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /EHsc /MD /Gy /Zc:wchar_t /Yc"StdAfx.h" /Fp"Release\Admin.pch" /Fo"Release\\" /Gd /TP AdminApp.cpp AdminWnd.cpp stdafx.cpp
+         AdminApp.cpp
+     1>f:\my desktop\FYC_SDK\CommonModul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\FYC_SDK\CommonModul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\FYC_SDK\Admin\../TDXM\ClientDefine.h(6): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\FYC_SDK\Admin\../TDXM\ClientDefine.h(18): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\FYC_SDK\Admin\../TDXM\ClientDefine.h(61): warning C4114: 多次使用同一类型限定符
+         AdminWnd.cpp
+         stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /fo"Release\Admin.res" Admin.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release\Admin.exe) 与 Linker 的 OutputFile 属性值(F:\my desktop\FYC_SDK\运行\Release\Unicode\客户端配置生成器.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Admin) 与 Linker 的 OutputFile 属性值(客户端配置生成器)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\link.exe /OUT:"../运行/Release/Unicode/客户端配置生成器.exe" /NOLOGO /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release\Admin.pdb" /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /IMPLIB:"F:\my desktop\FYC_SDK\SDKSLN\Release\Admin.lib" /MACHINE:X86 Release\Admin.res
+         Release\AdminApp.obj
+         Release\AdminWnd.obj
+         Release\stdafx.obj
+         "F:\my desktop\FYC_SDK\库文件\Unicode\CommonModul.lib"
+     1>LINK : warning LNK4089: /OPT:REF 已丢弃所有对“MSVCP71.dll”的引用
+     1>LINK : warning LNK4089: /OPT:REF 已丢弃所有对“OLEAUT32.dll”的引用
+         Admin.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release\Admin.exe
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\客户端配置生成器.exe ..\发布\Release\Unicode\客户端配置生成器.exe
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\Admin\Admin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.58

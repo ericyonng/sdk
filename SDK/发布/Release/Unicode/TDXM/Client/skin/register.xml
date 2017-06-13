@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="357,220" sizebox="6,6,6,6" roundcorner="12,12" caption="0,0,0,29">
+<Font name="微软雅黑" size="14" default="true" />
+<Font name="微软雅黑" size="16"/>
+<Font name="微软雅黑" size="22"/>
+
+  <HorizontalLayout name="HorizontalLayoutUI" float="true" width="357" height="220" bkimage="file='BACK_GROUND' restype='PNG'">
+  <Label float="true" pos="0,0,357,29" bkimage="file='IMG_TITLE' restype='PNG'"/>
+  <Label text="天地玄门-注册" float="true" pos="12,0,100,29" textcolor="#FFFFFFFF"/>
+  <Label text="用 户 名" float="true" pos="97,53,157,71" align="center" textcolor="#FF000000"/>
+   <Label text="密    码" float="true" pos="97,73,157,91" align="center"  textcolor="#FF000000"/>
+   <Label text="确认密码" float="true" pos="97,93,157,111" align="center"  textcolor="#FF000000"/>
+    <Label text="邮    箱" float="true" pos="97,113,157,131" align="center"  textcolor="#FF000000"/>
+    <Edit name="EditAccount" float="true" pos="158,53,278,71" bkcolor="#FFc6bc9a"  nativebkcolor="#FFc6bc9a" textpadding="4,3,4,3" textcolor="#00000000" disabledtextcolor="#00A7A6AA" />
+	<Edit name="EditPwd" float="true" pos="158,73,278,91" password="true" bkcolor="#FFc6bc9a" nativebkcolor="#FFc6bc9a" textpadding="4,3,4,3" textcolor="#00000000" disabledtextcolor="#00A7A6AA" /> 
+	<Edit name="EditConfirmPwd" float="true" pos="158,93,278,111" password="true" bkcolor="#FFc6bc9a" nativebkcolor="#FFc6bc9a" textpadding="4,3,4,3" textcolor="#00000000" disabledtextcolor="#00A7A6AA" /> 
+	<Edit name="EditEmail" float="true" pos="158,113,278,131" bkcolor="#FFc6bc9a"  nativebkcolor="#FFc6bc9a" textpadding="4,3,4,3" textcolor="#00000000" disabledtextcolor="#00A7A6AA" />
+    
+	<Label name="LabelWarn"  text="" float="true" pos="20,32,328,50" align="center"  textcolor="#FF000000"/>
+    <Button name="BtnClose" float="true" pos="312,0,565,36" autosize="true" statusimage="file='CLOSE_BTN' restype='PNG'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />	
+   <Button name="BtnOk" text="确  认" float="true" pos="126,143,376,381" autosize="true" statusimage="file='BUTTON_BK' restype='PNG'" textcolor="#00000000" disabledtextcolor="#00A7A6AA"  align="center" />
+   <Button name="BtnCancel" text="取  消" float="true" pos="200,143,534,332" autosize="true" statusimage="file='BUTTON_BK' restype='PNG'" textcolor="#00000000" disabledtextcolor="#00A7A6AA" align="center" />	
+
+  </HorizontalLayout> 
+</Window>

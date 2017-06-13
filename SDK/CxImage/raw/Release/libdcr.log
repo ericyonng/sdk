@@ -1,0 +1,13 @@
+﻿生成启动时间为 2017/6/8 18:00:07。
+     1>项目“D:\My DeskTop\FYC_SDK\CxImage\raw\libdcr.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt libdcr.c
+         libdcr.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Release\libdcr.lib" /NOLOGO .\Release\libdcr.obj
+         libdcr.vcxproj -> D:\My DeskTop\FYC_SDK\CxImage\raw\.\Release\libdcr.lib
+     1>已完成生成项目“D:\My DeskTop\FYC_SDK\CxImage\raw\libdcr.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.35

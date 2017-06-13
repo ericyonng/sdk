@@ -1,0 +1,67 @@
+#ifndef CLIENT_DEFINE_H_
+#define CLIENT_DEFINE_H_
+
+#pragma once
+
+const char const szClientPublicKey[] =	"0602000000a400005253413100040"
+										"0000100010013bd0f7ca4c40b8940"
+										"b2c93056b1d2af207b1c7abf2cd31"
+										"157ddd8e97aa26037f01109bca7ad"
+										"983b313c03ea58ba186e30fa8a11a"
+										"d51ec0e3c72e09c02677ed95ed0be"
+										"8373636b15aed19cf018dd71238b2"
+										"cfda9f5077fb9d186d328e774585d"
+										"fbaad3990320580d39c692399b570"
+										"060f31b1c85b531bb1fbe3af50d5f"
+										"efc29a";
+
+const char const szClientPrivateKey[] = "0702000000a400005253413200040"
+										"0000100010013bd0f7ca4c40b8940"
+										"b2c93056b1d2af207b1c7abf2cd31"
+										"157ddd8e97aa26037f01109bca7ad"
+										"983b313c03ea58ba186e30fa8a11a"
+										"d51ec0e3c72e09c02677ed95ed0be"
+										"8373636b15aed19cf018dd71238b2"
+										"cfda9f5077fb9d186d328e774585d"
+										"fbaad3990320580d39c692399b570"
+										"060f31b1c85b531bb1fbe3af50d5f"
+										"efc29a39593b417b9f779b1aff344"
+										"18ffecaf9f6484bed7360172b3dc2"
+										"a4ef2609800ff61dec1e9ce83dad6"
+										"c11027292c18a177968753fda5688"
+										"fb9dd442f0eb923ed9ab4478eb5b8"
+										"a5ea253c11ff553eb34efc56d7427"
+										"3b14116bbc958b7933bdd1f6a96c4"
+										"98fcf0274d60af811f8ea3e1f8aa1"
+										"0166a024b7a3ba24dec53cf9cc5eb"
+										"6c1a74e28ed9404e148f1d75afe77"
+										"d9d13ae037262a820de284ca427c8"
+										"1da708934452f2f8a9f96c9355b7b"
+										"8092ef500328617648f367b691d83"
+										"a544c61a0a0bcd5a667b7baf42e1b"
+										"3f9b2a82a60eeb24d5bb8bce35ea3"
+										"b7d7ff76480a2b259e9c40cf0fbfc"
+										"8c2293fe32082071fee7fec23aa9e"
+										"4ff9ca8f9061868a5fa2e130ecc78"
+										"34c428f7f66bbe9bff62c523cdf28"
+										"df294da872c912e73fd20732ee256"
+										"cea23148c07e26f9fbcd362735278"
+										"b56e0a1d9cbdcd05a6c183c05e06e"
+										"0d18e01d81a4b8aae16246ed26286"
+										"8875855575a44898303f0c1c15990"
+										"65f61284837fad879710755f4ac0f"
+										"fcde6167738e857c07fc223bfdf11"
+										"ca3287abedba218b6cda2a5f1a078"
+										"29b7279c59fac1eedf922342b4a55"
+										"de020897d7a78dcd869c17e084e5b"
+										"b887aaa8369811cca3c87abee7c29"
+										"44fb10bd1b69a19dee3fbc178506a"
+										"d2a";
+
+const char const szServerPublicKey[] =	"0602000000A40000525341310004000001000100D7B43A318555D920F351A5B5047B"
+										"BE4EE6B6339283F70160E4ACCBCBCF354ED2D8B33127AC66CFF49A7E65C559CCDD5D"
+										"4C8A57C5E6C22B7158F52F0FE96B2C12FBAEAF51A20761112B9B97837711D8A2362F"
+										"625BBD3B435069D61419BC885FA8C7EA59168C111BCCC6BDA0EC78FB46E036780FE6"
+										"054C540EE6896DED9857D998";
+
+#endif

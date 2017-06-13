@@ -1,0 +1,45 @@
+﻿生成启动时间为 2017/6/11 2:43:44。
+     1>项目“F:\my desktop\FYC_SDK\CxImage\png\png.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\zlib /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D WIN32 /D NDEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt png.c pngerror.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\CxImage\png\.\Unicode_Release\png.lib) does not match the Library's OutputFile property value (F:\my desktop\FYC_SDK\CxImage\lib\png.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\png.lib" /NOLOGO .\Unicode_Release\png.obj
+         .\Unicode_Release\pngerror.obj
+         .\Unicode_Release\pngget.obj
+         .\Unicode_Release\pngmem.obj
+         .\Unicode_Release\pngpread.obj
+         .\Unicode_Release\pngread.obj
+         .\Unicode_Release\pngrio.obj
+         .\Unicode_Release\pngrtran.obj
+         .\Unicode_Release\pngrutil.obj
+         .\Unicode_Release\pngset.obj
+         .\Unicode_Release\pngtrans.obj
+         .\Unicode_Release\pngvcrd.obj
+         .\Unicode_Release\pngwio.obj
+         .\Unicode_Release\pngwrite.obj
+         .\Unicode_Release\pngwtran.obj
+         .\Unicode_Release\pngwutil.obj
+         png.vcxproj -> F:\my desktop\FYC_SDK\CxImage\png\.\Unicode_Release\png.lib
+     1>已完成生成项目“F:\my desktop\FYC_SDK\CxImage\png\png.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.10

@@ -1,0 +1,43 @@
+﻿生成启动时间为 2017/6/12 0:19:24。
+     1>项目“F:\my desktop\FYC_SDK\SDK_TOOLS\SDK_TOOLS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\SDKTOOLS.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DlgSdkTools.cpp SdkToolsApp.cpp stdafx.cpp Task.cpp
+         DlgSdkTools.cpp
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(222): warning C4005: “__in”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(192) : 参见“__in”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(223): warning C4005: “__out”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(199) : 参见“__out”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(224): warning C4005: “__inout”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(212) : 参见“__inout”的前一个定义
+     1>DlgSdkTools.cpp(829): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>DlgSdkTools.cpp(835): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         SdkToolsApp.cpp
+         stdafx.cpp
+         Task.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release\SDK_TOOLS.res" SDK_TOOLS.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release\SDKTOOLS.exe) does not match the Linker's OutputFile property value (F:\my desktop\FYC_SDK\运行\Release\Unicode\SDKTOOLS.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../运行/Release/Unicode/SDKTOOLS.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:res\admin.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release\SDKTOOLS.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\my desktop\FYC_SDK\SDKSLN\Release\SDKTOOLS.lib" /MACHINE:X86 /SAFESEH Release\SDK_TOOLS.res
+         Release\DlgSdkTools.obj
+         Release\SdkToolsApp.obj
+         Release\stdafx.obj
+         Release\Task.obj
+         SDK_TOOLS.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release\SDKTOOLS.exe
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\SDKTOOLS.exe ..\开发环境\开发环境构建\SDKTOOLS.exe
+         copy /y ..\运行\Release\Unicode\SDKTOOLS.exe ..\发布\Release\Unicode\SDKTOOLS.exe
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\SDK_TOOLS\SDK_TOOLS.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.75

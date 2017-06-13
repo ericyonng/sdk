@@ -1,0 +1,75 @@
+﻿生成启动时间为 2017/6/11 23:51:02。
+     1>项目“F:\my desktop\FYC_SDK\NetworkService\NetworkService.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D NETWORK_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode_vs2013\NetworkService.pch" /Fo"Release_Unicode_vs2013\\" /Fd"Release_Unicode_vs2013\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp TcpSocket.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl-”(用“/GS-”)
+         Stdafx.cpp
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(222): warning C4005: “__in”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(192) : 参见“__in”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(223): warning C4005: “__out”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(199) : 参见“__out”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(224): warning C4005: “__inout”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(212) : 参见“__inout”的前一个定义
+         TcpSocket.cpp
+     1>TcpSocket.cpp(781): warning C4018: “<”: 有符号/无符号不匹配
+     1>TcpSocket.cpp(782): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(804): warning C4018: “<”: 有符号/无符号不匹配
+     1>TcpSocket.cpp(805): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(1142): warning C4018: “<”: 有符号/无符号不匹配
+     1>TcpSocket.cpp(1839): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(1894): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(2042): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2056): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2066): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2074): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2081): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2191): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(2271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2278): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2381): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>TcpSocket.cpp(2253): warning C4101: “clntAdrLen”: 未引用的局部变量
+     1>TcpSocket.cpp(2708): warning C4018: “<”: 有符号/无符号不匹配
+     1>TcpSocket.cpp(3477): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\my desktop\fyc_sdk\networkservice\tcpsocket.cpp(2214): warning C4715: “CNetworkTcpServer::SetAsynchronousServer”: 不是所有的控件路径都返回值
+     1>f:\my desktop\fyc_sdk\networkservice\tcpsocket.cpp(159): warning C4715: “CAddr::SetAddrInfoByDomainName”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release_Unicode_vs2013\NetworkService.res" NetworkService.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\NetworkService.dll) does not match the Linker's OutputFile property value (F:\my desktop\FYC_SDK\运行\Release\Unicode\NetworkService.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../运行/Release/Unicode/NetworkService.dll" /NOLOGO /DEF:".\NetworkService.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\NetworkService.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../库文件/Unicode/NetworkService.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode_vs2013\NetworkService.res
+         Release_Unicode_vs2013\Stdafx.obj
+         Release_Unicode_vs2013\TcpSocket.obj
+         "F:\my desktop\FYC_SDK\库文件\Unicode\CommonModul.lib"
+            正在创建库 ../库文件/Unicode/NetworkService.lib 和对象 ../库文件/Unicode/NetworkService.exp
+         NetworkService.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\NetworkService.dll
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\NetworkService.dll ..\发布\Release\Unicode\NetworkService.dll
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\NetworkService\NetworkService.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.57

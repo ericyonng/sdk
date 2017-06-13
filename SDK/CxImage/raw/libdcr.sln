@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdcr", "libdcr.vcxproj", "{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_Unicode_vs2013|Win32 = Release_Unicode_vs2013|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Debug|Win32.Build.0 = Debug|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Release_Unicode_vs2013|Win32.ActiveCfg = Release_Unicode_vs2013|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Release_Unicode_vs2013|Win32.Build.0 = Release_Unicode_vs2013|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Release|Win32.ActiveCfg = Release|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Release|Win32.Build.0 = Release|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Template|Win32.ActiveCfg = Template|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Template|Win32.Build.0 = Template|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{1EA0916B-EBDF-4C97-BAFA-C06474C64BCD}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

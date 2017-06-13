@@ -1,0 +1,42 @@
+﻿生成启动时间为 2017/6/12 0:16:48。
+     1>项目“F:\my desktop\FYC_SDK\NetworkService\NetworkService.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D NETWORK_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /EHsc /MD /GS /Gy /Zc:wchar_t /Yc"StdAfx.h" /Fp"Release\NetworkService.pch" /Fo"Release\\" /Gd /TP Stdafx.cpp TcpSocket.cpp
+         Stdafx.cpp
+     1>f:\my desktop\FYC_SDK\CommonModul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\FYC_SDK\CommonModul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+         TcpSocket.cpp
+     1>TcpSocket.cpp(781): warning C4018: “<” : 有符号/无符号不匹配
+     1>TcpSocket.cpp(804): warning C4018: “<” : 有符号/无符号不匹配
+     1>TcpSocket.cpp(1142): warning C4018: “<” : 有符号/无符号不匹配
+     1>TcpSocket.cpp(1839): warning C4800: “BOOL” : 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(1894): warning C4800: “BOOL” : 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(2191): warning C4800: “BOOL” : 将值强制为布尔值“true”或“false”(性能警告)
+     1>TcpSocket.cpp(2253): warning C4101: “clntAdrLen” : 未引用的局部变量
+     1>TcpSocket.cpp(2708): warning C4018: “<” : 有符号/无符号不匹配
+     1>f:\my desktop\fyc_sdk\networkservice\tcpsocket.cpp(159): warning C4715: “CAddr::SetAddrInfoByDomainName” : 不是所有的控件路径都返回值
+     1>f:\my desktop\fyc_sdk\networkservice\tcpsocket.cpp(2214): warning C4715: “CNetworkTcpServer::SetAsynchronousServer” : 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /fo"Release\NetworkService.res" NetworkService.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release\NetworkService.dll) 与 Linker 的 OutputFile 属性值(F:\my desktop\FYC_SDK\运行\Release\Unicode\NetworkService.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 7.1\Vc7\bin\link.exe /OUT:"../运行/Release/Unicode/NetworkService.dll" /NOLOGO /DEF:".\NetworkService.def" /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release\NetworkService.pdb" /OPT:REF /OPT:ICF /TLBID:1 /IMPLIB:"../库文件/Unicode/NetworkService.lib" /MACHINE:X86 /DLL Release\NetworkService.res
+         Release\Stdafx.obj
+         Release\TcpSocket.obj
+         "F:\my desktop\FYC_SDK\库文件\Unicode\CommonModul.lib"
+            正在创建库 ../库文件/Unicode/NetworkService.lib 和对象 ../库文件/Unicode/NetworkService.exp
+     1>LINK : warning LNK4089: /OPT:REF 已丢弃所有对“OLEAUT32.dll”的引用
+     1>LINK : warning LNK4089: /OPT:REF 已丢弃所有对“USER32.dll”的引用
+         NetworkService.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release\NetworkService.dll
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\NetworkService.dll ..\发布\Release\Unicode\NetworkService.dll
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\NetworkService\NetworkService.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.92

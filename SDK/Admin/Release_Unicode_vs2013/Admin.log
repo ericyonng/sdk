@@ -1,0 +1,44 @@
+﻿生成启动时间为 2017/6/11 23:53:40。
+     1>项目“F:\my desktop\FYC_SDK\Admin\Admin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode_vs2013\Admin.pch" /Fo"Release_Unicode_vs2013\\" /Fd"Release_Unicode_vs2013\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AdminApp.cpp AdminWnd.cpp stdafx.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl-”(用“/GS-”)
+         AdminApp.cpp
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(45): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(46): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(222): warning C4005: “__in”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(192) : 参见“__in”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(223): warning C4005: “__out”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(199) : 参见“__out”的前一个定义
+     1>f:\my desktop\fyc_sdk\commonmodul\Rsa.h(224): warning C4005: “__inout”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h(212) : 参见“__inout”的前一个定义
+     1>f:\my desktop\fyc_sdk\admin\../TDXM/ClientDefine.h(6): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\admin\../TDXM/ClientDefine.h(18): warning C4114: 多次使用同一类型限定符
+     1>f:\my desktop\fyc_sdk\admin\../TDXM/ClientDefine.h(61): warning C4114: 多次使用同一类型限定符
+         AdminWnd.cpp
+     1>AdminWnd.cpp(93): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+         stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release_Unicode_vs2013\Admin.res" Admin.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\Admin.exe) does not match the Linker's OutputFile property value (F:\my desktop\FYC_SDK\运行\Release\Unicode\客户端配置生成器.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Admin) does not match the Linker's OutputFile property value (客户端配置生成器). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../运行/Release/Unicode/客户端配置生成器.exe" /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:res\admin.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\Admin.pdb" /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\Admin.lib" /MACHINE:X86 /SAFESEH Release_Unicode_vs2013\Admin.res
+         Release_Unicode_vs2013\AdminApp.obj
+         Release_Unicode_vs2013\AdminWnd.obj
+         Release_Unicode_vs2013\stdafx.obj
+         "F:\my desktop\FYC_SDK\库文件\Unicode\CommonModul.lib"
+         Admin.vcxproj -> F:\my desktop\FYC_SDK\SDKSLN\Release_Unicode_vs2013\Admin.exe
+       PostBuildEvent:
+         mkdir ..\发布\Release\Unicode\
+         copy /y ..\运行\Release\Unicode\客户端配置生成器.exe ..\发布\Release\Unicode\客户端配置生成器.exe
+         
+         :VCEnd
+         子目录或文件 ..\发布\Release\Unicode\ 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\my desktop\FYC_SDK\Admin\Admin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.98

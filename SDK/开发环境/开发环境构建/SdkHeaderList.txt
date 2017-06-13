@@ -1,0 +1,234 @@
+#CommonModul 公共组建 ini配置文件，加解密模块，文件，文件夹IO
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\CommonModul\
+CommonModulHead.h
+Rsa.h
+IniFileIO.h
+DailyLog.h
+
+#CxImage 强大的图像绘制功能支持多种图片格式，可支持图像数据流
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\CxImage\
+CxImage\xfile.h
+CxImage\ximabmp.h
+CxImage\ximacfg.h
+CxImage\ximadef.h
+CxImage\ximage.h
+CxImage\ximagif.h
+CxImage\ximaico.h
+CxImage\ximaiter.h
+CxImage\ximajas.h
+CxImage\ximajbg.h
+CxImage\ximajpg.h
+CxImage\ximamng.h
+CxImage\ximapcx.h
+CxImage\ximapng.h
+CxImage\ximaraw.h
+CxImage\ximaska.h
+CxImage\ximatga.h
+CxImage\ximath.h
+CxImage\ximatif.h
+CxImage\ximawbmp.h
+CxImage\ximawmf.h
+CxImage\xiofile.h
+CxImage\xmemfile.h
+
+jpeg\jchuff.h
+jpeg\jconfig.h
+jpeg\jdct.h
+jpeg\jdhuff.h
+jpeg\jerror.h
+jpeg\jinclude.h
+jpeg\jmemsys.h
+jpeg\jmorecfg.h
+jpeg\jpegint.h
+jpeg\jpeglib.h
+jpeg\jversion.h
+
+png\png.h
+png\pngconf.h
+
+zlib\crc32.h
+zlib\deflate.h
+zlib\inffast.h
+zlib\inffixed.h
+zlib\inflate.h
+zlib\inftrees.h
+zlib\trees.h
+zlib\zconf.h
+zlib\zconf.in.h
+zlib\zlib.h
+zlib\zutil.h
+
+mng\libmng.h
+mng\libmng_chunk_descr.h
+mng\libmng_chunk_io.h
+mng\libmng_chunk_prc.h
+mng\libmng_chunks.h
+mng\libmng_cms.h
+mng\libmng_conf.h
+mng\libmng_data.h
+mng\libmng_display.h
+mng\libmng_dither.h
+mng\libmng_error.h
+mng\libmng_filter.h
+mng\libmng_jpeg.h
+mng\libmng_memory.h
+mng\libmng_object_prc.h
+mng\libmng_objects.h
+mng\libmng_pixels.h
+mng\libmng_read.h
+mng\libmng_trace.h
+mng\libmng_types.h
+mng\libmng_write.h
+mng\libmng_zlib.h
+
+
+tiff\t4.h
+tiff\tif_dir.h
+tiff\tif_fax3.h
+tiff\tif_predict.h
+tiff\tiff.h
+tiff\tiffcomp.h
+tiff\tiffconf.h
+tiff\tiffio.h
+tiff\tiffiop.h
+tiff\uvcode.h
+
+jasper\include\jasper\jas_cm.h
+jasper\include\jasper\jas_config.h
+jasper\include\jasper\jas_config2.h
+jasper\include\jasper\jas_debug.h
+jasper\include\jasper\jas_fix.h
+jasper\include\jasper\jas_getopt.h
+jasper\include\jasper\jas_icc.h
+jasper\include\jasper\jas_image.h
+jasper\include\jasper\jas_init.h
+jasper\include\jasper\jas_malloc.h
+jasper\include\jasper\jas_math.h
+jasper\include\jasper\jas_seq.h
+jasper\include\jasper\jas_stream.h
+jasper\include\jasper\jas_string.h
+jasper\include\jasper\jas_tmr.h
+jasper\include\jasper\jas_tvp.h
+jasper\include\jasper\jas_types.h
+jasper\include\jasper\jas_version.h
+jasper\include\jasper\jasper.h
+
+jbig\jbig.h
+
+raw\libdcr.h
+
+#DuiLib 著名的UI库功能强大
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\DuiLib\
+UIlib.h
+Control\UIActiveX.h
+Control\UIAnimation.h
+Control\UIButton.h
+Control\UIColorPalette.h
+Control\UICombo.h
+Control\UIComboBox.h
+Control\UIDateTime.h
+Control\UIEdit.h
+Control\UIFadeButton.h
+Control\UIFlash.h
+Control\UIGifAnim.h
+Control\UIGifAnimEx.h
+Control\UIGroupBox.h
+Control\UIHotKey.h
+Control\UIIPAddress.h
+Control\UILabel.h
+Control\UIList.h
+Control\UIListEx.h
+Control\UIMenu.h
+Control\UIOption.h
+Control\UIProgress.h
+Control\UIRichEdit.h
+Control\UIRollText.h
+Control\UIScrollBar.h
+Control\UISlider.h
+Control\UIText.h
+Control\UITreeView.h
+Control\UIWebBrowser.h
+
+Core\ControlFactory.h
+Core\UIBase.h
+Core\UIContainer.h
+Core\UIControl.h
+Core\UIDefine.h
+Core\UIDlgBuilder.h
+Core\UIManager.h
+Core\UIMarkup.h
+Core\UIRender.h
+Core\UIResourceManager.h
+
+Layout\UIAnimationTabLayout.h
+Layout\UIChildLayout.h
+Layout\UIHorizontalLayout.h
+Layout\UITabLayout.h
+Layout\UITileLayout.h
+Layout\UIVerticalLayout.h
+
+Utils\downloadmgr.h
+Utils\DPI.h
+Utils\DragDropImpl.h
+Utils\FlashEventHandler.h
+Utils\observer_impl_base.h
+Utils\stb_image.h
+Utils\TrayIcon.h
+Utils\UIDelegate.h
+Utils\UIShadow.h
+Utils\Utils.h
+Utils\VersionHelpers.h
+Utils\WebBrowserEventHandler.h
+Utils\WinImplBase.h
+
+#简易优化过的网狐DUI窗体
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\DUI窗体\
+YCDuiWindow.h
+GuiFoundationHead.h
+FilterWnd.h
+
+#简易优化过的网狐DUI库
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\DUI库\
+stb_image.c
+FGuilib.h
+UIBase.h
+UICombo.h
+UICommon.h
+UIContainer.h
+UIControl.h
+UIDelegate.h
+UIDlgBuilder.h
+UIList.h
+UIManager.h
+UIMarkup.h
+UIRender.h
+UIResLoader.h
+UIRichEdit.h
+YCDuiLibHead.h
+
+#绘图模块 ImageMethod
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\ImageMethod\
+BitImage.h
+PngImage.h
+YCImageHead.h
+
+#网络服务组件 NetworkService
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\NetworkService\
+NetworkServiceHead.h
+SocketBase.h
+SocketProtocol.h
+TcpSocket.h
+
+#线程模块 Thread
+#;代表主目录 必须以\结尾
+;F:\my desktop\FYC_SDK\Thread\
+TaskBase.h
+ThreadHead.h
+ThreadPool.h

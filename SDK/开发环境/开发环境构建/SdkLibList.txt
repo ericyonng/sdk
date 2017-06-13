@@ -1,0 +1,23 @@
+#库文件中
+#;代表主目录需以\结尾
+;F:\my desktop\FYC_SDK\库文件\Unicode\
+FGuilib.lib
+DuiLib.lib
+CommonModul.lib
+GuiFoundation.lib
+NetworkService.lib
+Thread.lib
+YCImage.lib
+
+#CxImage库
+#;代表主目录需以\结尾
+;F:\my desktop\FYC_SDK\CxImage\lib\
+CxImage.lib
+jasper.lib
+jbig.lib
+Jpeg.lib
+libdcr.lib
+mng.lib
+png.lib
+Tiff.lib
+zlib.lib
